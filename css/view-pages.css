@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    direction: rtl;
+    height: 2000px;
+}
+header{
+    width: 100%;
+    height: 47px;
+    background:#6B6565;
+}
+
+header > nav{
+    text-align: center;
+    padding-top: 14px;
+}
+header > nav > a{
+color: #ffffff;
+text-decoration: none;
+font-size: 16px;
+padding: 17px;
+}
+
+
+/************************/
+article{
+    width: 90%;
+    margin: 0 auto;
+}
+.top-img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+/***********************/
+
+.accordion{
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    background: #ffffff;
+    border-bottom: 2px solid #6B6565;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+
+
+}
+
+.panel{
+    background: #F3EFEF;
+    overflow: hidden;
+    display: none;
+    margin-right: 0px;
+    transition: max-height 0.2s ease-out;
+
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+
+/**********************/
+
+  
+  
+
+  .accordion::before {
+    content: '';
+    color: #777;
+    position: absolute;
+    margin-left: 5px;
+    background-image: url(/img/icon/chevron-left-solid.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 3px;
+  }
+  
+  .accordion:after {
+    background-image: url(/img/icon/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: 3px;
+  }
+
+  /**************************/
+
+  .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
