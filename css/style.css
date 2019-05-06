@@ -1,0 +1,148 @@
+:root{
+    --primary-color-opaque: rgba(20, 209, 51, 0.4);
+
+}
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%
+}
+header{
+    width: 100%;
+    height: 47px;
+    background:#6B6565;
+}
+
+header > nav{
+    text-align: center;
+    padding-top: 14px;
+}
+header > nav > a{
+color: #ffffff;
+text-decoration: none;
+font-size: 16px;
+padding: 17px;
+}
+
+/*************************/
+
+
+main{
+    margin-top: 20px;
+}
+
+main > .link2{
+    margin-top: 20px;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 15px;
+}
+
+
+main > .link2> span:first-child{
+    background: #FF0000;
+    border-color: #FF0000;
+}
+
+main > .link2> span:first-child a{
+        color: #ffffff;
+
+}
+
+main > .link2 > span{
+    border: 1px solid #6B6565;
+    border-radius: 15px;
+    padding: 6px 25px;
+    margin: 0 6px;
+
+}
+
+
+main > .link2 > span> a{
+    text-decoration: none;
+}
+
+
+
+/***************************/
+
+main > article{
+    text-align: right;
+    margin-top: 20px;
+    height: 100%;
+}
+
+article{
+    position: relative;
+    
+}
+article::before{
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    right:15px;
+    top: 1px;
+    border: 2px solid #6B6565;
+    background: #6B6565;
+    
+}
+
+.events{
+    position:relative ;
+    margin-top: 35px;
+    padding-right: 70px;
+}
+
+.events .time{
+    padding-right: 4px;
+}
+
+.events > .time span {
+    background-image: linear-gradient(120deg, 
+    var(    --primary-color-opaque ) 0%,
+    var(    --primary-color-opaque ) 100%);
+    background-repeat: no-repeat;
+    background-size: 90% 0.25rem;
+    background-position: 4px 75%;
+    padding: 2px 5px;
+    font-style: italic;
+}
+
+.events::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid #6B6565;
+    background: #6B6565;
+    border-radius: 50%;
+    right: 7px;
+    top: 0px;
+
+
+}
+
+.events h2{
+    margin-top: 20px;
+}
+
+.events p{
+    text-align: right;
+    padding-left: 10px;
+}
+
+.events button{
+    margin-top: 10px;
+    height: 30px;
+    padding:0px 15px;
+    border-radius: 20px;
+
+}
