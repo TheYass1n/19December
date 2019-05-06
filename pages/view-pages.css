@@ -80,7 +80,7 @@ article{
     color: #777;
     position: absolute;
     margin-left: 5px;
-    background-image: url(/img/icon/chevron-left-solid.svg);
+    background-image: url(icon/chevron-left-solid.svg);
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
@@ -88,7 +88,7 @@ article{
   }
   
   .accordion:after {
-    background-image: url(/img/icon/chevron-down-solid.svg);
+    background-image: url(icon/chevron-down-solid.svg);
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
