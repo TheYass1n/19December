@@ -11,6 +11,13 @@ html, body{
     width: 100%;
     direction: rtl;
     height: 2000px;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+p{
+  font-size: 18px;
+  margin: 15px 0px;
 }
 header{
     width: 100%;
@@ -52,6 +59,7 @@ article{
     cursor: pointer;
     transition: 0.4s;
     position: relative;
+    text-align: right;
 
 
 }
@@ -100,7 +108,7 @@ article{
   .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    /*padding-bottom: 56.25%; */
     height: 0;
   }
   .iframe-container iframe{
@@ -112,3 +120,18 @@ article{
   }
 
 
+
+  /*****************
+  descktop screen 
+  *******************/
+
+  
+@media only screen and (min-width: 900px){
+  main {
+      text-align: center;
+  }
+  article{
+      width: 700px;
+      margin: 0 auto;
+  }
+}
