@@ -27,6 +27,7 @@ a{
 p{
     font-size: 18px;
     font-family: 'Scheherazade', serif;
+    line-height: 18px;
 
 
     
@@ -116,7 +117,7 @@ article::before{
 .events{
     position:relative ;
     margin-top: 35px;
-    padding-right: 70px;
+    padding-right: 55px;
 }
 
 .events .time{
