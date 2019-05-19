@@ -1,5 +1,5 @@
 :root{
-    --primary-color-opaque: rgba(20, 209, 51, 0.4);
+    --primary-color-opaque: rgb(253, 193, 27);
 
 }
 *{
@@ -16,8 +16,17 @@ html, body{
 
 }
 
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Tajawal', sans-serif;
+    color: black;
+
+}
+
 p{
     font-size: 18px;
+    
 }
 header{
     width: 100%;
@@ -143,7 +152,19 @@ article::before{
 .events p{
     text-align: right;
     padding-left: 10px;
+    margin: 10px 0px;
 }
+/*.events  p::before{
+    content: '';
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    order: 2px solid #6B6565;
+    background: #6B6565;
+    right: 30px;
+    border: none;
+    margin: 11px;
+}*/
 
 .events button{
     margin-top: 10px;
@@ -166,5 +187,21 @@ respansive for decktop screen
     article{
         width: 700px;
         margin: 0 auto;
+    }
+}
+
+/********************
+mobile screen
+********************/
+
+@media only screen and (max-width: 500px){
+    p{
+        text-align: center;
+        font-size: 16px;
+        box-sizing: content-box;
+        padding-left:15px ;
+    }
+    .events p{
+        padding-left: 0px;
     }
 }
