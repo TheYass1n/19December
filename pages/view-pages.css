@@ -17,7 +17,18 @@ html, body{
 p{
   font-size: 18px;
   margin: 15px 0px;
+  font-family: 'Scheherazade', serif;
+  font-weight: bold;
 }
+
+  h3{
+    border-bottom:7px rgb(90, 241, 97) solid ;
+    display: inline-block;
+    padding-bottom: 7px;
+
+  }
+
+
 header{
     width: 100%;
     height: 47px;
@@ -132,5 +143,27 @@ article{
   article{
       width: 700px;
       margin: 0 auto;
+  }
+}
+
+
+/*****************
+mobile screen 
+***************/
+
+
+@media only screen and (max-width: 500px){
+  p{
+      font-size: 20px;
+      font-weight: bold;
+      box-sizing: content-box;
+      padding-left:15px ;
+  }
+  .events p{
+      padding-left: 0px;
+  }
+
+  header nav a {
+      font-size: 14px;
   }
 }

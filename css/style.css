@@ -26,6 +26,9 @@ a{
 
 p{
     font-size: 18px;
+    font-family: 'Scheherazade', serif;
+
+
     
 }
 header{
@@ -147,6 +150,8 @@ article::before{
 
 .events h2{
     margin-top: 20px;
+    border-bottom:7px rgb(90, 241, 97) solid ;
+    display: inline-block;
 }
 
 .events p{
@@ -197,11 +202,16 @@ mobile screen
 @media only screen and (max-width: 500px){
     p{
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
+        font-weight: bold;
         box-sizing: content-box;
         padding-left:15px ;
     }
     .events p{
         padding-left: 0px;
+    }
+
+    header nav a {
+        font-size: 14px;
     }
 }
