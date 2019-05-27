@@ -79,7 +79,7 @@ main > .link2> span:first-child a{
 main > .link2 > span{
     border: 1px solid #6B6565;
     border-radius: 15px;
-    padding: 6px 13px;
+    padding: 8px 13px;
     margin: 0 6px;
 
 }
