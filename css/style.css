@@ -207,10 +207,24 @@ mobile screen
         font-weight: bold;
         box-sizing: content-box;
         padding-left:15px ;
+        word-spacing: 2px;
+        margin: 18px;
+
     }
     
 
     header nav a {
         font-size: 14px;
+    }
+
+    article::before{
+        width: 1.9px;
+        border:1.9px;
+    }
+
+    .events::before{
+        width: 10px;
+        height: 10px;
+        right: 9px;
     }
 }
