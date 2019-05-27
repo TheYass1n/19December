@@ -197,6 +197,10 @@ respansive for decktop screen
         width: 700px;
         margin: 0 auto;
     }
+    p{
+        font-size: 23px;
+        font-weight: bold;
+    }
 }
 
 /********************
