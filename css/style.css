@@ -1,5 +1,6 @@
 :root{
     --primary-color-opaque: rgb(253, 193, 27);
+    --blue:#0F47AF;
 
 }
 *{
@@ -66,8 +67,8 @@ main > .link2{
 
 
 main > .link2> span:first-child{
-    background: #FF0000;
-    border-color: #FF0000;
+    background: var(--blue);
+    border-color:var(--blue);
 }
 
 main > .link2> span:first-child a{
