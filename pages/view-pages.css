@@ -13,12 +13,14 @@ html, body{
     font-family: 'Tajawal', sans-serif;
 
 }
+body{
+  width:100%;
+}
 
 p{
-  font-size: 18px;
   margin: 15px 0px;
   font-family: 'Scheherazade', serif;
-  font-weight: bold;
+  line-height: 24px;
 }
 
   h3{
@@ -113,6 +115,11 @@ article{
     left: 3px;
   }
 
+
+  .accordion.active::before{
+    transform: rotate(90deg)
+  }
+
   /**************************/
 
   .iframe-container{
@@ -137,9 +144,8 @@ article{
 
   
 @media only screen and (min-width: 900px){
-  main {
-      text-align: center;
-  }
+  
+  
   article{
       width: 700px;
       margin: 0 auto;
@@ -154,10 +160,8 @@ mobile screen
 
 @media only screen and (max-width: 500px){
   p{
-      font-size: 20px;
-      font-weight: bold;
       box-sizing: content-box;
-      padding-left:15px ;
+      padding-left:15px;
   }
 
 
