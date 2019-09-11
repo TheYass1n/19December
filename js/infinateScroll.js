@@ -71,7 +71,7 @@ xhr.onload = function() {
 };
 
   
-xhr.open('GET', 'data.json',true);
+xhr.open('GET', 'https://raw.githubusercontent.com/YassinHussein/DecRevlotionHistory/master/data.json',true);
 xhr.send();
 
 
@@ -81,7 +81,7 @@ document.addEventListener('scroll', function() {
         if (!pollingForData && distToBottom > 0 && distToBottom <= 8888) {
           loadingContainer.classList.add('no-content');
           page++;
-          xhr.open('GET', 'data.json ', true);
+          xhr.open('GET', 'https://raw.githubusercontent.com/YassinHussein/DecRevlotionHistory/master/data.json ', true);
           xhr.send();
 
         }
