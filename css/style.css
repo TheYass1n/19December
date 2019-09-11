@@ -76,8 +76,6 @@ direction: rtl;
 padding: 20px ;
 }
 
-.searchbox input:focus{
-}
 
 .searchbox input::placeholder{
 padding: 0px 20px;
@@ -234,17 +232,24 @@ article::before{
 respansive for decktop screen 
 *********************/
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 800px){
     main {
-        text-align: center;
+      margin-top: 20px;
     }
-    article{
-        width: 700px;
-        margin: 0 auto;
+    main > article{
+      margin: 25px ;
+      margin: 0 auto;
+      width: 700px;
+        
     }
+
     p{
         font-size: 23px;
         font-weight: bold;
+    }
+
+    .searchbox > input{
+         width:70%;
     }
 }
 
@@ -300,7 +305,6 @@ mobile screen
     object-fit: cover;
   }
   
-  .content-container .content {}
     .content .size-full {
       width: 100%;
       height: auto;
@@ -335,9 +339,7 @@ mobile screen
   }
   
   .loading {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    padding: 20px;
   }
   .loading-bar {
     display: inline-block;
