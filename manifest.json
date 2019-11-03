@@ -1,5 +1,6 @@
 {
   "short_name": "D.R.H",
+  "name": "",
   "icons": [
     {
       "src": "img/Group_2.png",
@@ -14,7 +15,7 @@
   ],
   "start_url": "index.html",
   "background_color": "#E3E3E3",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "index.html",
   "theme_color": "#E3E3E3"
 }
