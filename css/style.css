@@ -224,6 +224,7 @@ article::before{
     padding-left: 2.5em;
     margin: 10px 0px;
     Font-size:14px;
+    font-family: 'Tajawal', sans-serif;
 }
 /*.events  p::before{
     content: '';
