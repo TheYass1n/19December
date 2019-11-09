@@ -132,7 +132,7 @@ main .link2 > span:hover{
 main > .link2 > span{
     border-radius: 30px;
     margin: 0 2px;
-    padding:7px 13px;
+    padding:8.4px 13px;
     font-weight: 300;
     background:#fff;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.19);
@@ -142,6 +142,7 @@ main > .link2 > span{
 
 main > .link2 > span> a{
     text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
 }
 
 
