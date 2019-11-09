@@ -132,9 +132,9 @@ main .link2 > span:hover{
 main > .link2 > span{
     border-radius: 30px;
     margin: 0 2px;
-    padding:8px 18px;
+    padding:7px 13px;
     font-weight: 300;
-    border: 1px solid #E3E3E3;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.19);
 }
 
 
