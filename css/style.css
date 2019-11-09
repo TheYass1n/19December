@@ -36,23 +36,41 @@ p{
 }
 header{
     width: 100%;
-    height: 47px;
-    background:#fff;
+    background: white;
 }
+header nav div{
+  display: inline-block;
+}
+header nav:first-child{
+  text-align: center;
+}
+
 
 header > nav{
     text-align: right;
     padding-top: 14px;
+    width: 100%;
+    position: relative;
 }
 header > nav > a{
-color:#707070;
+color:#ffffff;
 text-decoration: none;
 font-size: 16px;
 padding: 17px;
 }
+header nav .menu {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
 
-header > nav > a > img >svg {
-color: #000;
+
+header nav span {
+  display: inline-block;
+  text-align: center;
+}
+header nav .logo {
+  font-weight: 350;
 }
 /*************************/
 
@@ -65,15 +83,22 @@ main{
 .searchbox{
     text-align: center;
     width: 100%;
+    margin-bottom: 10px;
+    position: relative;
 }
 .searchbox input{
-border: 1px solid #E3E3E3;
-border-radius: 50px;
-width: 95%;
-height: 41px;
-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+border: 1px solid #F1F1F4;
+border-radius: 18px;
+width: 85%;
+height: 45px;
+background: #F1F1F4;
 direction: rtl;
 padding: 20px ;
+}
+.searchbox i {
+  position: absolute;
+  top: 15px;
+  right: 14%;
 }
 
 
@@ -81,6 +106,7 @@ padding: 20px ;
 padding: 0px 20px;
 text-align: right;
 font-size: 16px;
+font-family: Tajawal;
 }
 
 .event-title{
@@ -215,12 +241,10 @@ article::before{
     padding:0px 15px;
     border-radius: 3px;
     color:white;
-    background:#0f47af;
 
 }
 .events button > a{
     color: #ffffff;
-    background:#0f47af;
 }
 
 .loading{
