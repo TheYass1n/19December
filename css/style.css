@@ -222,6 +222,7 @@ article::before{
     text-align: right;
     padding-left: 2.5em;
     margin: 10px 0px;
+    Font-size:14px;
 }
 /*.events  p::before{
     content: '';
