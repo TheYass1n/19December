@@ -88,8 +88,8 @@ main{
 }
 .searchbox input{
 border: 1px solid #F1F1F4;
-border-radius: 18px;
-width: 85%;
+border-radius: 30px;
+width: 95%;
 height: 45px;
 background: #F1F1F4;
 direction: rtl;
@@ -98,7 +98,7 @@ padding: 20px ;
 .searchbox i {
   position: absolute;
   top: 15px;
-  right: 14%;
+  right: 8%;
 }
 
 
