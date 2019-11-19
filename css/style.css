@@ -128,7 +128,9 @@ main .link2 > span:hover{
     background:var(--blue);
     color: white;
 }
-
+main .link2 > span > a:hover{
+color:#fff;
+}
 
 main > .link2 > span{
     border-radius: 30px;
