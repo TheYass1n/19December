@@ -281,7 +281,10 @@ respansive for decktop screen
     }
 
     .searchbox > input{
-         width:70%;
+         width:700px;
+    }
+    .searchbox i {
+        right:25.5%;
     }
 }
 
