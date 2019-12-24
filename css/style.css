@@ -155,7 +155,7 @@ main > .link2 > span> a{
 main > article{
     text-align: right;
     height: 100%;
-    margin: 5px 10px;
+    margin: 5px 5px;
     border:1px solid #E3E3E3;
     border-radius: 7px;
     overflow: hidden;
