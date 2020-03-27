@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="25" height="25" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="facebook-square" clip-path="url(#clip-path)">
+    <path id="facebook-square-2" data-name="facebook-square" d="M25,34.679V54.321A2.679,2.679,0,0,1,22.321,57h-4.76V47.112h3.382l.485-3.772H17.561V40.929c0-1.094.3-1.836,1.869-1.836h2V35.722a26.857,26.857,0,0,0-2.913-.151c-2.879,0-4.855,1.758-4.855,4.989v2.785H10.268v3.772h3.4V57H2.679A2.679,2.679,0,0,1,0,54.321V34.679A2.679,2.679,0,0,1,2.679,32H22.321A2.679,2.679,0,0,1,25,34.679Z" transform="translate(0 -32)" fill="#fff"/>
+  </g>
+</svg>

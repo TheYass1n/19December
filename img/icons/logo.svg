@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="34" viewBox="0 0 170 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="170" height="34" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-path)">
+    <text id="December" transform="translate(31 25)" fill="#fff" font-size="25" font-family="Tajawal-Light, Tajawal" font-weight="300" letter-spacing="0.15em"><tspan x="0" y="0">December</tspan></text>
+    <text id="_19" data-name="19" transform="translate(0 25)" fill="#fff" font-size="25" font-family="Tajawal-Medium, Tajawal" font-weight="500"><tspan x="0" y="0">19</tspan></text>
+  </g>
+</svg>
