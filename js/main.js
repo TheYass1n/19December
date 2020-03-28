@@ -14,3 +14,22 @@
            }
          }    
          openNav()
+
+         ///////////////
+     const seachOverly = document.querySelector(".overly-search-contener");
+     const seachBox = document.querySelector(".searchbox");
+
+     function openSearch(){
+     //window.location.href = "search.html"
+     seachBox.addEventListener("click", () => {
+        seachOverly.classList.add("open-search-overly")
+        document.querySelector(".overly-search-input").focus();
+        
+     })
+
+     }
+
+     function closeSearch(){
+      seachOverly.classList.remove("open-search-overly")
+     }
+

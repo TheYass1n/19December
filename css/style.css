@@ -87,63 +87,41 @@ main{
     width: 100%;
     margin-bottom: 10px;
     position: relative;
+    padding-right: 7px;
+    padding-left: 7px;
 }
-.searchbox input{
+.searchbox p{
 border: 1px solid #F1F1F4;
 border-radius: 30px;
-width: 93%;
+max-width: 100%;
 height: 45px;
 background: #F1F1F4;
 direction: rtl;
-padding: 20px ;
+text-align: right;
+padding-right: 43px;
+line-height: 44px;
+margin: auto;
+font-size: 16px;
+/*padding-right: 3rem;*/
 }
 
 .search-input{
   height: 40px;
   padding: 0px;
   font-size: 30px;
-  margin: 5px 0;
+ /* margin: 5px 0;*/
 }
 
-.search-input::-webkit-input-placeholder { 
-font-family: FontAwesome;
-font-weight: normal;
-overflow: visible;
-vertical-align: top;
-display: inline-block !important;
-padding-left: 5px;
-padding-top: 2px;
-}
-
-.search-input::-moz-placeholder  { 
-font-family: FontAwesome;
-font-weight: normal;
-overflow: visible;
-vertical-align: top;
-display: inline-block !important;
-padding-left: 5px;
-padding-top: 2px;
-}
-
-.search-input:-ms-input-placeholder  { 
-font-family: FontAwesome;
-font-weight: normal;
-overflow: visible;
-vertical-align: top;
-display: inline-block !important;
-padding-left: 5px;
-padding-top: 2px;
-}
 
 .searchbox i {
   position: absolute;
   top: 15px;
-  right: 8%;
+  right: 6%;
 }
 
 
 .searchbox input::placeholder{
-padding: 0px 20px;
+padding: 0px 0px;
 text-align: right;
 font-size: 16px;
 font-family: Tajawal;
@@ -323,12 +301,21 @@ respansive for decktop screen
         font-weight: bold;
     }
 
-    .searchbox > input{
+    .searchbox > p{
          width:700px;
     }
     .searchbox i {
-        right:25.5%;
+        right:18.5%;
     }
+
+    header nav .menu {
+    position: absolute;
+    right: 10.5rem;
+    top: 18px;
+}
+.nav-items{
+  width: 40%;
+}
 }
 
 /********************

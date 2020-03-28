@@ -55,6 +55,7 @@
   font-size: 16px;
   display: inline-block;
   width: 100%;
+  text-align: right;
 }
 
 .nav-items .add-to-home-screen button{
@@ -90,6 +91,10 @@
 .dark-mood{
   padding:0 .3rem;
 }
+.dark-mood-text{
+  text-align: right;
+  margin: 10px 5px;
+}
 
 /* The switch - the box around the slider */
 .switch {
@@ -106,6 +111,10 @@
   opacity: 0;
   width: 0;
   height: 0;
+}
+
+.switch p{
+  text-align: right;
 }
 
 /* The slider */

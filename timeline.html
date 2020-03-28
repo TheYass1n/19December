@@ -16,7 +16,9 @@
     <meta property="og:image"              content="https://midan.aljazeera.net/file/getsocialimage/9f1f1b05-51a7-49d3-af59-db13646a465f/875/458"/>
     <title>تاريخ ثورة ديسمبر</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/search.css">
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -50,7 +52,7 @@
               <input type="checkbox">
               <span class="slider round"></span>
             </label>
-            <p>الوضع الليلي</p>
+            <p class="dark-mood-text">الوضع الليلي</p>
           </span>
 
            <ul class="share-to-soulmedia">
@@ -67,9 +69,23 @@
     <main>
 
         <div class="searchbox">
-            <input class="search-input" id="focus"  placeholder="&#61442; بحث" type="search">
-           <!-- <i><img src="./img/icons/search-black.svg" alt=""></i> -->
+            <p  onclick="openSearch()" class="search-input " >بحث</p>
+            <i><img src="./img/icons/search-black.svg" alt=""></i> 
         </div>
+
+        <!--   search page-->
+        <div class="overly-search-contener">
+    <div class="overly-search-box">
+      <i class="overly-search-icon"><img src="./img/icons/search-black.svg" alt=""></i> 
+      <input autofocus class="overly-search-input" type="seach" name="">
+      <a onclick="closeSearch()" class="back-icon" href="#"><img src="./img/icons/back-icon.svg" alt=""></a>
+
+    </div>
+    <div class="seach-results">
+      
+    </div>
+  </div>
+
 
 
         <div class="link2">
