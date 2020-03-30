@@ -1,10 +1,44 @@
-@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 
 :root{
-    --primary-color-opaque: rgb(253, 193, 27);
-    --blue:#0F47AF;
+   --white:#ffffff;
+   --blue:blue;
+   --gray:#F1F1F4;
+   --black:black;
+   --body:#ffffff;
+   --search:#F1F1F4;
+   --filter-by-month: #ffffff;
+   --filter-by-month-text:;
+   --event-bg:#ffffff;
+   --event-text:;
+   --post-border: #E3E3E3;
+   --logo:;
+   --line:#E3E3E3;
+    --search-placeholder:#3a3737;
+    --menu:black;
+
 
 }
+
+
+[data-theme="dark"] {
+  --body:#18191A;
+  --search:#242526;
+  --white:#18191A;
+  --filter-by-month: #242526;
+  --event-bg:#242526;
+  --post-border::#242526 ;
+  --event-text:#ffffff;
+  --filter-by-month-text:#ffffff;
+  --logo:#ffffff;
+  --line:rgb(227,227,227, 0.3);
+   --search-placeholder:#B2B2B2;
+   --menu:#ffffff;
+
+
+
+}
+
 *{
     margin: 0;
     padding:0;
@@ -17,6 +51,7 @@ html, body{
     width: 100%;
     font-family: 'Tajawal', sans-serif;
     height: 100vh;
+    background: var(--body);
 }
 
 
@@ -24,7 +59,7 @@ a{
     text-decoration: none;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: var(--black);
 
 }
 
@@ -38,7 +73,7 @@ p{
 }
 header{
     width: 100%;
-    background: white;
+    background: var(--white);
 }
 header nav div{
   display: inline-block;
@@ -55,16 +90,20 @@ header > nav{
     position: relative;
 }
 header > nav > a{
-color:#ffffff;
+color: var(--white);
 text-decoration: none;
 font-size: 16px;
 padding: 17px;
 }
 header nav .menu {
   position: absolute;
-  right: 10px;
-  top: 18px;
+  right: 15px;
+  top:22px;
 }
+header nav .menu svg path{
+  fill: var(--menu);
+}
+
 
 
 header nav span {
@@ -73,6 +112,7 @@ header nav span {
 }
 header nav .logo {
   font-weight: 350;
+  color: var(--logo);
 }
 /*************************/
 
@@ -91,14 +131,15 @@ main{
     padding-left: 7px;
 }
 .searchbox p{
-border: 1px solid #F1F1F4;
+border: 1px solid var(--search);
 border-radius: 30px;
 max-width: 100%;
 height: 45px;
-background: #F1F1F4;
+background: var(--search);
 direction: rtl;
 text-align: right;
 padding-right: 43px;
+color: var(--search-placeholder);
 line-height: 44px;
 margin: auto;
 font-size: 16px;
@@ -137,17 +178,17 @@ main > .link2{
     overflow: auto;
     white-space: nowrap;
     padding: 12px;
-    background: #ffffff;
+    background: var(--white);
     margin-bottom: 10px;
 }
 
 
 main .link2 > span:hover{
     background:var(--blue);
-    color: white;
+    color: var(--white);
 }
 main .link2 > span > a:hover{
-color:#fff;
+color:var(--white);
 }
 
 main > .link2 > span{
@@ -155,7 +196,7 @@ main > .link2 > span{
     margin: 0 2px;
     padding:8.4px 13px;
     font-weight: 300;
-    background:#fff;
+    background:var(--filter-by-month) ;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.19);
     font-family: 'Tajawal', sans-serif;
 }
@@ -164,6 +205,7 @@ main > .link2 > span{
 main > .link2 > span> a{
     text-decoration: none;
     font-family: 'Tajawal', sans-serif;
+    color: var(--filter-by-month-text);
 }
 
 
@@ -174,7 +216,7 @@ main > article{
     text-align: right;
     height: 100%;
     margin: 5px 5px;
-    border:1px solid #E3E3E3;
+    border:1px solid var(--post-border);
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1)
@@ -192,8 +234,9 @@ article::before{
     position: absolute;
     right:15px;
     top: 22px;
-    border: 2px solid #707070;
-    background: #707070;
+    border: 2px solid var(--line);
+    background: var(--line);
+    z-index: 3;
     
 }
 
@@ -201,8 +244,10 @@ article::before{
     position:relative ;
     padding: 10px 0px;
     padding-right: 40px;
-    border-bottom: 1px solid #E3E3E3;
-    z-index: -1;
+    border-bottom: 1px solid var(--line);
+    z-index: 2;
+    background: var(--event-bg);
+    color: var(--event-text);
     
 }
 
@@ -232,8 +277,8 @@ article::before{
     width: 20px;
     height: 20px;
     position: absolute;
-    border: 2px solid #6B6565;
-    background: #6B6565;
+    border: 2px solid var(--line);
+    background: var(--line);
     border-radius: 50%;
     right: 7px;
     top: 12px;
@@ -266,8 +311,8 @@ article::before{
     height: 30px;
     padding:0px 15px;
     border-radius: 3px;
-    background: blue ;
-    color:white;
+    background: var(--blue);
+    color:#ffffff;
 
 }
 .events button > a{
