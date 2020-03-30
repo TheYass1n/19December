@@ -7,6 +7,8 @@
     <title>home</title>
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/search.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
 
@@ -18,9 +20,22 @@
     <div class="mySlides fade">
       <img src="./img/2 (1).png" style="width:100%">
       <div class="nav">
-        <a  href=""><img  class="secnend" src="./img/icons/Component 5 – 2.svg" alt=""></a>        
+        <a  onclick="openSearch()" href="javascript:void(0)"><img  class="secnend" src="./img/icons/Component 5 – 2.svg" alt=""></a>        
         <a onclick="openNav()" href="javascript:void(0)"><img  class="frist" src="./img/icons/Symbol 16.svg" alt=""></a>
      </div>
+
+             <!--   search page-->
+    <div class="overly-search-contener">
+    <div class="overly-search-box">
+      <i class="overly-search-icon"><img src="./img/icons/search-black.svg" alt=""></i> 
+      <input autofocus class="overly-search-input" type="seach" name="">
+      <a onclick="closeSearch()" class="back-icon" href="#"><img src="./img/icons/back-icon.svg" alt=""></a>
+
+    </div>
+    <div class="seach-results">
+      
+    </div>
+  </div>
 
 
      <div id="nav-items" class="nav-items">
@@ -234,6 +249,25 @@
            }
          }    
          openNav()
+
+
+         //search overly
+     const seachOverly = document.querySelector(".overly-search-contener");
+     const seachBox = document.querySelector(".secnend");
+
+     function openSearch(){
+     //window.location.href = "search.html"
+     seachBox.addEventListener("click", () => {
+        seachOverly.classList.add("open-search-overly")
+        document.querySelector(".overly-search-input").focus();
+        
+     })
+
+     }
+
+     function closeSearch(){
+      seachOverly.classList.remove("open-search-overly")
+     }
         </script>
         
     
