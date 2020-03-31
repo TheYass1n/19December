@@ -23,13 +23,14 @@
 
 [data-theme="dark"] {
   --body:#18191A;
+  --blue:#3A3B3C;
   --search:#242526;
   --white:#18191A;
   --filter-by-month: #242526;
   --event-bg:#242526;
   --post-border::#242526 ;
-  --event-text:#ffffff;
-  --filter-by-month-text:#ffffff;
+  --event-text:#B4B8BF;
+  --filter-by-month-text:#B4B8BF;
   --logo:#ffffff;
   --line:rgb(227,227,227, 0.3);
    --search-placeholder:#B2B2B2;

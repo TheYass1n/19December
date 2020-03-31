@@ -21,6 +21,7 @@
   display: grid;
   width: 100%;
   grid-template-columns: 50% 50%;
+  border-bottom:.4px solid #555252; 
 }
 
 .nav-items .close{
@@ -35,18 +36,18 @@
 }
 
 .nav-link{
-  margin-top:3rem; 
+  margin-top:2rem; 
+  border-bottom:.4px solid #555252; 
+  padding-bottom: 1rem;
 }
 .nav-link img{
   height: auto;
   padding-left: 6px;
 }
 .nav-link li{
-  padding: .5rem .2rem;
+  padding: 7px 5px;
 }
-.nav-items hr{
-  border:.4px solid #fff;
-}
+
 
 .nav-items .add-to-home-screen{
   background: #fff;
@@ -56,6 +57,7 @@
   display: inline-block;
   width: 100%;
   text-align: right;
+  margin-top: 1rem;
 }
 
 .nav-items .add-to-home-screen button{
@@ -93,15 +95,15 @@
 }
 .dark-mood-text{
   text-align: right;
-  margin: 10px 5px;
+  margin: 5px 5px;
 }
 
 /* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
-  width: 58px;
-  height: 28px;
+  width: 49px;
+  height: 18px;
   float: left;
   margin-top: .5rem;
 }
@@ -115,6 +117,7 @@
 
 .switch p{
   text-align: right;
+  padding: 7px 3px;
 }
 
 /* The slider */
@@ -133,10 +136,10 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 25px;
-  width: 25px;
-  left: 2px;
-  bottom: 2px;
+  height: 24px;
+  width: 24px;
+  left: -1px;
+  bottom: -3px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
