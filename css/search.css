@@ -1,3 +1,21 @@
+:root{
+   --body:#ffffff;
+   --search:#F1F1F4;
+
+
+}
+
+[data-theme="dark"] {
+   --body:#18191A;
+   --search:#242526;
+
+
+}
+
+
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -18,7 +36,7 @@ body{
 	right: 0;
 	left: 0;
 	bottom: 0;
-	background: #fff;
+	background: var(--body);
 	z-index: 30;
 	transform: scale(2);
 
@@ -52,7 +70,8 @@ body{
 .overly-search-input{
 	width: 100%;
     padding: 18px;
-    border-bottom: .8px solid #cccccc;
+    border-bottom: 1px solid var(--search);
+    background: var(--search);
     direction: rtl;
 	padding-right: 2rem;
 	font-size: 16px;
