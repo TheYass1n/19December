@@ -1,7 +1,7 @@
 
 .nav-items{
   width: 80%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   text-align: right;
@@ -11,6 +11,7 @@
   flex-direction: column;
   background: #262525;
   color: #fff;
+  font-family: sans-serif;
 
 }
 
@@ -30,7 +31,7 @@
   justify-self: start;
 }
 .nav-items .logo{
-  width: 130px;
+  width: 100px;
   height: 35px;
   justify-self: end;
 }
@@ -43,16 +44,22 @@
 .nav-link img{
   height: auto;
   padding-left: 6px;
+  width: 22px;
 }
 .nav-link li{
   padding: 7px 5px;
 }
 
+.nav-link li a{
+  color: #fff;
+  font-size: 16px;
+}
 
 .nav-items .add-to-home-screen{
   background: #fff;
   color: #000;
   padding: .5rem;
+  font-family: roboto;
   font-size: 16px;
   display: inline-block;
   width: 100%;
@@ -65,11 +72,10 @@
   float: left;
   background: #3981FF;
   border:none;
-  padding: 5px 7px;
+  padding: 5px 10px;
   color: #fff;
-  border-radius: 7px;
+  border-radius: 3px;
   font-size: 15px;
-  font-family: Tajawal; 
 }
 
 
@@ -102,8 +108,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 49px;
-  height: 18px;
+  width: 40px;
+  height: 13px;
   float: left;
   margin-top: .5rem;
 }
@@ -136,8 +142,8 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
   left: -1px;
   bottom: -3px;
   background-color: white;
